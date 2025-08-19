@@ -4,12 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url("/imgs/background.avif");
-    background-size: cover;
-    color: #fff;
-    
-}
+
 
 header {
     margin-top: 30px;
@@ -19,7 +14,7 @@ header {
         font-size: 45px;
          font-family: "Edu NSW ACT Cursive", cursive;
          font-weight: bold;
-         color: #FA0845;
+         color: #0808FF;
     }
 }
 
@@ -32,14 +27,12 @@ header {
     margin-top: 20px;
     width: 400px;
     padding: 20px;
-    background-color: #fff;
     color: #000;
     margin-left: 300px;
     margin-bottom: 20px;
     padding-top: 10px;
     gap: 10px;
-    background-color: #4D4D4D;
-    color: #fff;
+    background-color: #f3f3f3;
     border-radius: 10px;
 
     & label{
@@ -52,7 +45,7 @@ header {
         width: 260px;
         height: 35px;
         border-radius: 10px;
-        border: 2px solid #f3f3f3;
+        border: 2px solid #0808FF;
         outline: none;
     }
     
