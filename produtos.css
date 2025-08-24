@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    & h1 {
+        font-size: 45px;
+         font-family: "Edu NSW ACT Cursive", cursive;
+         font-weight: bold;
+         color: #0808FF;
+    }
+}
+
+main{
+    display: flex;
+     justify-content: left;
+    align-items: start;
+    margin-top: 25px;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 10px;
+
+     & p{
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    & button {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #2E59D7;
+    color: #fff;
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    }
+}
+
+.description {
+    margin-top: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
